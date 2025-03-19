@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    color: whitesmoke;
+}
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.header .link {
+    font-size: 16px;
+}
+.main {
+    width: 100%;
+    height: 90vh;
+    background: url('./mainimage.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 250px;
+}
+.main-content h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.main-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.my-button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.info {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px;
+}
+.block {
+    width: 40%;
+}
+.title {
+    font-size: 32px;
+    margin: 20px 0;
+}
+.see-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.see-more .my-button {
+    font-size: 32px;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+.login-page {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+.registration {
+    width: 500px;
+}
+
+
+
+
+
+
+
+
